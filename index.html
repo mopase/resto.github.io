@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/unite-gallery.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body class="main">
+    <!-- Header Main Page -->
+    <header class="header">
+        <section class="container">
+            <div class="header-wrap-nav">
+                <a href="javascript:void(0)" class="header__logo" aria-labelledby="Resto"></a>
+                <nav class="header-nav">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-list__item header-nav-list__item--active">
+                            <a class="header-nav-list__link" href="javascript:void(0)">Our Story</a>
+                        </li>
+                        <li class="header-nav-list__item">
+                            <a class="header-nav-list__link" href="javascript:void(0)">Menu</a>
+                        </li>
+                        <li class="header-nav-list__item">
+                            <a class="header-nav-list__link" href="javascript:void(0)">Reservations</a>
+                        </li>
+                        <li class="header-nav-list__item">
+                            <a class="header-nav-list__link" href="javascript:void(0)">News</a>
+                        </li>
+                        <li class="header-nav-list__item">
+                            <a class="header-nav-list__link" href="javascript:void(0)">Rviews</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="jumbo">
+            <div class="container">
+                <h1 class="jumbo__title">This Template Is Awesome</h1>
+                <div class="jumbo__desc">resto restaurant home page website template</div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main Page Content -->
+    <main class="content">
+        <div class="container">
+            <section class="menu-list">
+                <div class="title-menu-wrap">
+                    <h2 class="menu-list__title">Menu</h2>
+                </div>
+                <div class="row">
+                    <div class="col-2-4">
+                        <ul class="menu-items">
+                            <li class="menu-item">
+                                <div class="menu-item-title"><span>Voluptate cillum fugiat.</span><span class="menu-item-price">$50</span></div>
+                                <div class="menu-item-desc">Cheese, tomato, mushrooms, onions.</div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="menu-item-title"><span>Metus varius laoreet.</span><span class="menu-item-price">$62</span></div>
+                                <div class="menu-item-desc">Chicken, mozzarella cheese, onions.</div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="menu-item-title"><span>Donec sodales magna.</span><span class="menu-item-price">$25</span></div>
+                                <div class="menu-item-desc">Tuna, Sweetcorn, Cheese.</div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="menu-item-title"><span>Saugue velit cursus.</span><span class="menu-item-price">$30</span></div>
+                                <div class="menu-item-desc">Pineapple, Minced Beef, Cheese.</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2-4">
+                        <ul class="menu-items">
+                            <li class="menu-item">
+                                <div class="menu-item-title"><span>Arcu pede enim justo.</span><span class="menu-item-price">$45</span></div>
+                                <div class="menu-item-desc">Tuna, Sweetcorn, Cheese.</div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="menu-item-title"><span>Cras dapibussemper nisi.</span><span class="menu-item-price">$32</span></div>
+                                <div class="menu-item-desc">Pineapple, Minced Beef, Cheese.</div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="menu-item-title"><span>Quam semper libero.</span><span class="menu-item-price">$15</span></div>
+                                <div class="menu-item-desc">Cheese, tomato, mushrooms, onions.</div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="menu-item-title"><span>Nam eget dui Etiam.</span><span class="menu-item-price">$35</span></div>
+                                <div class="menu-item-desc">Chicken, mozzarella cheese, onions.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="btn-wrap">
+                    <button class="btn btn-with-icon"><span>load more</span><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                </div>
+            </section>
+
+            <!-- begin dishes -->
+            <section class='dishes'>
+                <div class="section-title">
+                    <h2 class="section-title__title"><span>Featured Dishes</span></h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-4">
+                        <div class="dishes-item">
+                            <div class="dishes-item__pic">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <div class="dishes-item__name">Fugiat nulla sint<span class="dishes-item__price">$30</span></div>
+                            <div class="item-rating">
+                                <select id="example">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4">
+                        <div class="dishes-item">
+                            <div class="dishes-item__pic"></div>
+                            <div class="dishes-item__name">Daute irure dolor<span class="dishes-item__price">$30</span></div>
+                            <div class="item-rating">
+                                <select id="example">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4">
+                        <div class="dishes-item">
+                            <div class="dishes-item__pic"></div>
+                            <div class="dishes-item__name">Officia deserunt mollit<span class="dishes-item__price">$30</span></div>
+                            <div class="item-rating">
+                                <select id="example">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4">
+                        <div class="dishes-item">
+                            <div class="dishes-item__pic"></div>
+                            <div class="dishes-item__name">Pim minim veniam<span class="dishes-item__price">$30</span></div>
+                            <div class="item-rating">
+                                <select id="example">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end dishes -->
+
+            <!-- begin gallery -->
+            <section class='gallery'>
+                <div class="section-title">
+                    <h2 class="section-title__title"><span>The Gallery</span></h2>
+                </div>
+
+                <div id="gallery" style="display:none;">
+                    <img alt="Image 1 Title"
+                        src="assets/images/pic/pic1.jpeg"
+                        data-image="assets/images/pic/pic1.jpeg"
+                        data-description="Image 1 Description">
+
+                    <img alt="Image 2 Title"
+                        src="assets/images/pic/pic2.jpeg"
+                        data-image="assets/images/pic/pic2.jpeg"
+                        data-description="Image 2 Description">
+
+                    <img alt="Image 3 Title"
+                        src="assets/images/pic/pic3.jpeg"
+                        data-image="assets/images/pic/pic3.jpeg"
+                        data-description="Image 3 Description">
+
+                    <img alt="Image 4 Title"
+                        src="assets/images/pic/pic4.jpeg"
+                        data-image="assets/images/pic/pic4.jpeg"
+                        data-description="Image 4 Description">
+
+                    <img alt="Image 5 Title"
+                        src="assets/images/pic/pic5.jpeg"
+                        data-image="assets/images/pic/pic5.jpeg"
+                        data-description="Image 5 Description">                 
+		        </div>
+            </section>
+            <!-- end gallery -->
+        </div>
+    </main>
+
+    <!-- Footer Main Page -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-1-4">
+                    <h4 class="footer-col-title">New York Restaurant</h4>
+                    <div class="footer__adress">3926 Anmoore Road
+                            <br>New York, NY 10014</div>
+                    <div class="footer__tel">718-749-1714</div>
+                </div>
+
+                <div class="col-1-4">
+                    <h4 class="footer-col-title">France Restaurant</h4>
+                    <div class="footer__adress">68, rue  de la Couronne
+                            <br>75002 PARIS</div>
+                    <div class="footer__tel">02.94.23.69.56</div>
+                </div>
+
+                <div class="col-1-4">
+                    <h4 class="visuallyhidden">Footer navigation</h4>
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-list__item">
+                                <a href="#" class="footer-nav-list__link">Blog</a>
+                            </li>
+                            <li class="footer-nav-list__item">
+                                <a href="#" class="footer-nav-list__link">Careers</a>
+                            </li>
+                            <li class="footer-nav-list__item">
+                                <a href="#" class="footer-nav-list__link">Privacy Policy</a>
+                            </li>
+                            <li class="footer-nav-list__item">
+                                <a href="#" class="footer-nav-list__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-1-4">
+                    <h4 class="visuallyhidden">Site Copyright</h4>
+                    <img class="footer__logo" src="assets/images/logo-footer.svg" alt="Resto" >
+                    <div class="footer__copyright">
+                            © All Rights Reserved 2014.<br>
+                            Find  More at <a href="pixelhunt.com" target="_blank">Pixelhint.com</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/rating.js"></script>
+
+    <script src="js/unitegallery.min.js"></script>
+    {# <script src="js/themes/tilesgrid/ug-theme-tilesgrid.js"></script> #}
+    <script src="js/themes/tiles/ug-theme-tiles.js"></script>
+
+    <script src="js/common.js"></script>
+</body>
+</html>
